@@ -9,7 +9,7 @@
 body{
   background-color: #fefde7;
   color: #e33e43;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;  
 }
 
 .page{
@@ -30,6 +30,7 @@ h1{
   margin: 0px auto 0px;
   font-size: 15px;
   text-transform: uppercase;
+
 }
 
 .ancoras {
@@ -65,6 +66,10 @@ h1{
 
 .title {
   position: relative;
+
+  margin: 15px auto 0px;
+  width: 100%;
+  border-radius: 8px;
 }
 
 
@@ -76,12 +81,6 @@ h1{
   font-size: 20px;
   text-transform: uppercase;
   color: #fefde7;
-}
-
-.title img {
-  margin: 15px auto 0px;
-  width: 100%;
-  border-radius: 8px;
 }
 
 .bloco{
@@ -126,7 +125,13 @@ strong {
 footer {
   background-color: #684157;
   padding: 10px;
+  margin-top: 20px;
   text-align: center;
   color: #fefde7;
   font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f0f008;
 }
