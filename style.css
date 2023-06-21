@@ -63,12 +63,8 @@ h1{
   font-weight: bold;
 }
 
-/*.title {
+.title {
   position: relative;
-
-  margin: 15px auto 0px;
-  width: 100%;
-  border-radius: 8px;
 }
 
 
@@ -80,7 +76,13 @@ h1{
   font-size: 20px;
   text-transform: uppercase;
   color: #fefde7;
-}*/
+}
+
+.title img {
+  margin: 15px auto 0px;
+  width: 100%;
+  border-radius: 8px;
+}
 
 .bloco{
   display: flex;
