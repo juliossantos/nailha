@@ -125,3 +125,12 @@ strong {
   border-radius: 15px 0px 15px 0;
   font-weight: bold;
  }
+
+ 
+footer {
+  background-color: #684157;
+  padding: 10px;
+  text-align: center;
+  color: #fefde7;
+  font-size: 12px;
+}
