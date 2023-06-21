@@ -63,7 +63,7 @@ h1{
   font-weight: bold;
 }
 
-.title {
+<!--.title {
   position: relative;
 
   margin: 15px auto 0px;
@@ -80,7 +80,7 @@ h1{
   font-size: 20px;
   text-transform: uppercase;
   color: #fefde7;
-}
+}-->
 
 .bloco{
   display: flex;
