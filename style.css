@@ -143,14 +143,14 @@ footer a {
   color: #f0f008;
 }
 
-.flot img {
+#floating-img {
   position: fixed;
   right: 0;
   bottom: 40px;
-
   width: 80px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
-
 .redes a {
   margin: 10px;
 }

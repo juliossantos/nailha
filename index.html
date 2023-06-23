@@ -111,17 +111,36 @@
 
     </div>
     
-    <!--<div class="flot"> 
-      <a href="https://www.instagram.com/espetosnailha/" target="_blank"><img src="#" alt="logo insta"></a>
-    </div>-->
     <div class="redes">
       <a href="https://www.instagram.com/espetosnailha/" target="_blank"><img src="https://gostinhomineiro.com.br/wp-content/uploads/2022/02/instagram.png" alt="logo do insta"></a>
       <a href="#"><img src="https://gostinhomineiro.com.br/wp-content/uploads/2022/02/whatsapp.png " alt="logo do whats"></a>
     </div>
 
   </div>
+
+  <div class="flot">
+    <a href="#topo"><img id="floating-img" src="https://uploads-ssl.webflow.com/5f76348b5d11734a9875a0f5/5f7636e0a1380ba190c7587a_setinha-verde.png" alt="logo insta"></a>
+  </div>
+
   <footer>
-    <p>&copy; 2023 <a href="https://juliossantos.github.io/links/" target="_blank">CODERIGHT TEC.</a> Todos os direitos reservados.</p>
+    <p>&copy; 2023 Espetos na ilha. Todos os direitos reservados.| Desenvolvido por: <a href="https://juliossantos.github.io/links/" target="_blank">CODERIGHT TEC.</a> </p>
   </footer>
+
+
+<script>
+  window.addEventListener("scroll", function() {
+    var img = document.getElementById("floating-img");
+    var scrollHeight = document.documentElement.scrollHeight;
+    var windowHeight = window.innerHeight;
+    var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollPosition > (scrollHeight * 0.20) - windowHeight) {
+      img.style.opacity = "1";
+    } else if (scrollPosition < (scrollHeight * 0.20) - windowHeight) {
+      img.style.opacity = "0";
+    }
+  });
+</script>
+
 </body>
 </html>
