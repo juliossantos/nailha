@@ -60,11 +60,11 @@ h1{
   color: #509107;
   text-decoration: none;
   font-size: 13px; 
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .ancoras a:hover{
-  font-weight: bold;
+  opacity: 0.8;
 }
 
 .title {
@@ -150,6 +150,9 @@ footer a {
   width: 80px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+
+  background-color: #f0f008;
+  border-radius: 45px;
 }
 .redes a {
   margin: 10px;
