@@ -123,8 +123,8 @@ h1{
   left: 50px;
 
   font-family: 'Ysabeau Infant', sans-serif;  
-  color: #fff; 
-  text-shadow: #000 0.1em 0.1em 0.2em;
+  color: #000; 
+  text-shadow: #fff 0.1em 0.1em 0.2em;
   font-weight: bold;
 }
  
